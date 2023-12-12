@@ -1,0 +1,17 @@
+# Author: Mason Andrews
+
+colors = ["red", "blue", "green", "yellow"]
+
+colors.extend(["orange", "purple", "pink"])
+
+colors.append("brown")
+
+colors.insert(3, "cyan")
+
+colors_copy = colors.copy()
+
+removed_color = colors_copy.pop(1)  # Remove the element at index 1
+
+print("Original List:", colors)
+print("Copied List with one element removed:", colors_copy)
+print("Removed Color:", removed_color)
